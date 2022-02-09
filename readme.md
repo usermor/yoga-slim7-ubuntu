@@ -1,14 +1,18 @@
-# Linux on Lenovo Yoga Slim 7 AMD
+# Under Construction!
+
+# Linux on Lenovo Yoga Slim 7 Intel - Creator Edition
 
 ## About
 
-This are various tweaks and fix to run Linux on Lenovo Yoga Slim 7. This note is validated on the following configuration
-- Ubuntu 20.04.2 and 20.10
-- Lenovo Yoga Slim 7 AMD 14ARE05 (Ryzen 7)
+This are various tweaks and fix to run Linux on Lenovo Yoga Slim 7 - Creator Edition. This note is validated on the following configuration
+- Linux Mint 20.1 Cinnamon (Ubuntu 20.04 Focal)
+- Lenovo Yoga Slim 7 Intel 15IMH05 (ideapad) - Creator Edition
 
-**Lenovo Yoga Slim 7 Pro is a different model**
+**This guide is for the Intel Core i5 model**
 
-## Summary
+For AMD guides, look upstream
+
+## Summary 🛠️
 
 Legend:
 - :heavy_check_mark: Works out of the box
@@ -34,10 +38,10 @@ Legend:
 ## Table of Content
 - [Linux on Lenovo Yoga Slim 7 AMD](#linux-on-lenovo-yoga-slim-7-amd)
   - [About](#about)
-  - [Summary](#summary)
+  - [Summary 🛠️](#summary-🛠️)
   - [Table of Content](#table-of-content)
-  - [System Output](#system-output)
-  - [Fixes](#fixes)
+  - [System Output 🛠️](#system-output-🛠️)
+  - [Fixes 🛠️](#fixes-🛠️)
     - [Graphic](#graphic)
     - [Suspend](#suspend)
       - [Background](#background)
@@ -47,14 +51,14 @@ Legend:
     - [Audio](#audio)
     - [Microphone](#microphone)
     - [Wi-Fi](#wi-fi)
-  - [Extra: Battery Conservation Mode](#extra-battery-conservation-mode)
+  - [Extra: Battery Conservation Mode 🛠️](#extra-battery-conservation-mode-🛠️)
   - [Thanks](#thanks)
 
-## System Output
+## System Output 🛠️
 
 `lsusb`, `lspci` and other output can be found on the [System Output](system-output.md) page.
 
-## Fixes
+## Fixes 🛠️
 
 **DISCLAIMER** I am not responsible for any damage and negative consequences to your system
 
@@ -256,7 +260,7 @@ The matter is fully discussed in the following community forums:
 
 If you encounter this problem, please [disable it](https://www.windowscentral.com/how-disable-windows-10-fast-startup) and Wi-Fi should work without problems.
 
-## Extra: Battery Conservation Mode
+## Extra: Battery Conservation Mode 🛠️
 
 On Lenovo Vantage (the Windows 10 app) there's "Battery Conservation Mode" feature which limit battery charge to around 60% to increase battery lifespan. To enable this feature on Linux, you can use the following command.
 
